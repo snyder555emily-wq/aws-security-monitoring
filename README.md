@@ -25,25 +25,25 @@ CloudTrail → S3 → GuardDuty Analysis → CloudWatch Alarm → SNS Alert → 
 ## Key Findings
 
 ### GuardDuty Findings Overview
-![GuardDuty Findings](screenshots/guardduty-overview.png)
+![GuardDuty Findings](guardduty-overview.png)
 
 ### High Severity Finding Detail
-![Finding Detail](screenshots/guardduty-detail.png)
+![Finding Detail](guardduty-detail.png)
 
 ### CloudTrail Event History
-![CloudTrail History](screenshots/cloudtrail-history.png)
+![CloudTrail History](cloudtrail-history.png)
 
 ### CloudTrail CreateUser Event
-![CloudTrail CreateUser](screenshots/cloudtrail-create.png)
+![CloudTrail CreateUser](cloudtrail-create.png)
 
 ### CloudTrail DeleteUser Event
-![CloudTrail DeleteUser](screenshots/cloudtrail-delete.png)
+![CloudTrail DeleteUser](cloudtrail-delete.png)
 
 ### CloudWatch Alarm Configuration
-![CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+![CloudWatch Alarm](cloudwatch-alarm.png)
 
 ### SNS Subscription Confirmed
-![SNS Confirmed](screenshots/sns-confirmed.png)
+![SNS Confirmed](sns-confirmed.png)
 
 ## What I Learned
 - How AWS native security tools work together as a pipeline
