@@ -23,23 +23,27 @@ tools to detect and alert on threats in real time.
 CloudTrail → S3 → GuardDuty Analysis → CloudWatch Alarm → SNS Alert → Email
 
 ## Key Findings
-## Key Findings
 
 ### GuardDuty Findings Overview
-![GuardDuty Findings](screenshots/guardduty-findings.png)
+![GuardDuty Findings](screenshots/guardduty-overview.png)
 
 ### High Severity Finding Detail
 ![Finding Detail](screenshots/guardduty-detail.png)
 
-### CloudTrail IAM Activity
+### CloudTrail Event History
+![CloudTrail History](screenshots/cloudtrail-history.png)
+
+### CloudTrail CreateUser Event
 ![CloudTrail CreateUser](screenshots/cloudtrail-create.png)
+
+### CloudTrail DeleteUser Event
 ![CloudTrail DeleteUser](screenshots/cloudtrail-delete.png)
 
 ### CloudWatch Alarm Configuration
 ![CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
 
 ### SNS Subscription Confirmed
-![SNS Subscription](screenshots/sns-confirmed.png)
+![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ## What I Learned
 - How AWS native security tools work together as a pipeline
